@@ -23,5 +23,5 @@ void loop() {
   lcd.print(" cm");
   lcd.display();
   
-  delay(1000);
+  delay(700);
 }
