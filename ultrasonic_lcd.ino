@@ -16,9 +16,10 @@ void setup() {
 
 void loop() {
   lcd.noDisplay();
-  dist_cm = sonar.ping_cm();  
-  
   lcd.clear();
+  
+  dist_cm = sonar.ping_cm()
+  
   lcd.print(dist_cm);
   lcd.print(" cm");
   lcd.display();
